@@ -1,0 +1,83 @@
+# ADR Causality Assessment
+
+## Overview
+
+This project focuses on assessing the causal relationship between a suspected drug and an adverse drug reaction (ADR). Causality assessment is an important pharmacovigilance activity used to evaluate whether a medicine may have caused an adverse event.
+
+## Objectives
+
+- Understand the principles of ADR causality assessment.
+- Apply the Naranjo Algorithm and WHO-UMC causality assessment system.
+- Evaluate patient case reports using clinical information.
+- Classify suspected drug-related reactions based on available evidence.
+
+## Causality Assessment Methods
+
+### 1. Naranjo Algorithm
+
+The Naranjo Algorithm is a structured questionnaire consisting of 10 questions. Each question is assigned a score based on the available evidence. The total score indicates the likelihood that a drug caused the adverse reaction.
+
+| Total score | Classification |
+|---|---|
+| 9 or more | Definite |
+| 5–8 | Probable |
+| 1–4 | Possible |
+| 0 or less | Doubtful |
+
+### 2. WHO-UMC Scale
+
+The WHO-UMC system assesses the relationship between a suspected medicine and an adverse reaction using clinical and pharmacological evidence.
+
+Its categories are:
+- Certain
+- Probable/Likely
+- Possible
+- Unlikely
+- Conditional/Unclassified
+- Unassessable/Unclassifiable
+
+## Case Study: Suspected Drug-Induced Rash
+
+**Patient:** Adult patient (hypothetical case)
+
+**Suspected drug:** Amoxicillin
+
+**Adverse reaction:** Skin rash
+
+**Clinical history:** A patient develops a skin rash after starting amoxicillin. The reaction improves after the medicine is discontinued. No rechallenge information is available.
+
+**Assessment:** The timing and improvement after discontinuation may support a causal relationship. However, other causes, such as an underlying infection or another medicine, must also be considered. A final category requires a complete case assessment.
+
+## Causality Assessment Workflow
+
+1. Collect patient and medication history.
+2. Identify the suspected adverse reaction.
+3. Establish the time relationship between drug exposure and reaction.
+4. Review alternative causes and concomitant medicines.
+5. Assess dechallenge and rechallenge information, if available.
+6. Apply the selected causality assessment method.
+7. Document the score, classification, and rationale.
+
+## Importance in Pharmacovigilance
+
+- Supports systematic evaluation of suspected ADRs.
+- Improves consistency in case assessment.
+- Helps identify potential drug safety signals.
+- Supports accurate documentation and safety reporting.
+- Contributes to ongoing benefit-risk evaluation of medicines.
+
+## Limitations
+
+Causality assessment methods do not always establish definite proof that a drug caused an adverse reaction. Results depend on the quality and completeness of the available clinical information. Different assessment methods may produce different classifications.
+
+## Disclaimer
+
+This repository is intended for educational purposes only. The hypothetical case is not a real patient report, and the content should not replace clinical judgment or applicable pharmacovigilance procedures.
+
+## Author
+
+Sahil Gautam
+
+## Keywords
+
+Pharmacovigilance, Adverse Drug Reaction, ADR, Causality Assessment, Naranjo Algorithm, WHO-UMC, Drug Safety, Patient Safety
